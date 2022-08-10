@@ -1,9 +1,9 @@
-# BIKE SHARING MODEL - "BOOM BIKES" 
-> BoomBikes aspires to understand the demand for shared bikes among the people. 
-> The company wants to know: 
-> Which variables are significant in predicting the demand for shared bikes.
-> How well those variables describe the bike demands
-> Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market > based on some factors.
+# HousePricingModel - "Surprise Housing" 
+> Surprise Housing a US Based company plans to enter Australian market. 
+> The company uses Data Analytics to buy House at low rates and later sell at higher rates. 
+> 
+> 
+>
 
 *![Book logo](/BSS.jpg)
 
