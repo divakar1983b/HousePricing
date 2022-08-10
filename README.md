@@ -67,9 +67,13 @@
 ## Multicolinearity
 - To understand the multicollinearity amoung the different features, we shall plot the heat map between the variables, as well as use the variance_inflation_factor from statsmodels
 
-    *![Book logo](/heatmap1.PNG)
+*![Book logo](/corr1.PNG)
+*![Book logo](/corr2.PNG)
+*![Book logo](/vif1.PNG)
+*![Book logo](/vif2.PNG)
     
-- From the heatmap we can see that "temp" & "atemp" are highly correlated features. "temp" feature shall be dropped
+- From the heatmap we can see many highly correlating features 
+- Such Correlating Features are procedurally analysed through VIF function and dropped one by one to optimum number.
 - Similarly "hum", "fall" were also correlated with "atemp", which were confirmed by VIF function and elimiated one by one.
     *![Book logo](/heatmap2.PNG)
 
