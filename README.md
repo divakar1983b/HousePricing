@@ -87,24 +87,23 @@
         -   To identify and remove possible multicollinearities amoung features P-factor, VIF, RFE were looked into. 
         -   The model estimate were repeated for 4 runs and in each run a collinear feature with high P/VIF/RFE is removed to get the final model
         -   The final model estimate is shown below
-- OLS Model:
+- Ridge Train Model:
+*![Book logo](/ridgetr1.PNG)
+*![Book logo](/ridgetr2.PNG)
 
-     *![Book logo](/2018model.PNG)
-     *![Book logo](/2019model.PNG)
-
-- VIF & RFE analysis:
-
-    *![Book logo](/vifmodel.PNG)*![Book logo](/rfemodel.PNG)
+- Lasso Train Model:
+*![Book logo](/lassotr1.PNG)
+*![Book logo](/lassotr2.PNG)
     
-- R2 Score & Residual plot:
-- 
-    *![Book logo](/r2score.PNG)
-    *![Book logo](/predresd.PNG)
+- Ridge Test Score & plot:
+*![Book logo](/ridgetst1.PNG)
+*![Book logo](/ridgetst2.PNG)
+*![Book logo](/ridgetst3.PNG)
     
-- Test data Predictions:
-
-  *![Book logo](/pred2018.PNG)
-  *![Book logo](/pred2019.PNG)
+- Lasso Test Score & plot:
+*![Book logo](/lassotst1.PNG)
+*![Book logo](/lassotst2.PNG)
+*![Book logo](/lassotst3.PNG)
   
 ## Conclusion
    -   From the above models and prediction we can see that 
