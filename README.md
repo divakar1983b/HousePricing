@@ -35,8 +35,8 @@
     -   "MSZoning" variable contains the zones of each house as "RL, RM, RH, FV, C(all)". 
     -   The distribution of the house sold reveals that almost "79% of house sold are from "RL" Zone, followed by "15%" in "RM" Zone and 4% in "FV"zone and minor % in RH and C(all) zones.
 
-*![Book logo](/pricing1.jpg)
-*![Book logo](/pricing1.jpg)
+*![Book logo](/zone1.jpg)
+*![Book logo](/zone2.jpg)
 -  Zones   
     -   "instant", "dteday" shall be dropped due to low relavance to the model 
     -   "casual", "registered", "weekday" shall be dropped due to presence of alternate variable "cnt", "workingday", "holiday"
