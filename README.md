@@ -105,13 +105,13 @@
         - The "RL" Zone model and "FV" Zone model can predict better
         - The "RM" Zone model test score is comparatively less than train score. So predictions might be little unreliable.
         - The "RH" Zone model is poor at the train and test.
-   -   "RL" Model top 5 predictors
+   -   "RL" Model top 5 predictors by Lasso
         - Stone- "Exterior Covering on house"   : 0.292
         - NoRidge- "Northridge locality"        : 0.2236
         - Gambrel- "Gabrel roof"                : 0.1635
         - LotArea- "Lot size in sq.ft"          : 0.1625
         - 1.5Unf- "1.5 story Unfinished"        : -0.16238
-  -    "FV" Model top 5 predictors 
+  -    "FV" Model top 5 predictors by Lasso
         - LotArea- "Lot size in sq.ft"          : 0.48728
         - BsmtFinSF1- "Type1 Finished sq.ft"    : 0.18799
         - Rec- "Avg.Rating of Basement finish"  :-0.17729
