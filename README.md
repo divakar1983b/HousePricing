@@ -61,32 +61,7 @@
 
 *![Book logo](/mssub1.PNG)
 *![Book logo](/mssub2.PNG)
-*![Book logo](/mssub3.PNG)
-
-    -   "casual", "registered", "weekday" shall be dropped due to presence of alternate variable "cnt", "workingday", "holiday"
-    -   dummy variables for "weathersit" feature shall be created with drop first method
-    -   dummy variables for "season" feature shall be created with drop first method
-- Correlations and Outliers
-    -   Correlations, Outliers and Multicollinearities can be understood from pair plots,Box plot and heat maps
-    -   PairPlot of Continuous Variables:
-*![Book logo](/PP_BS_YR.png)
-        -   From the above pair plot we can see a good relation between "cnt" & "temp"/"atemp"
-        -   Also the "temp" and "atemp" are highly correalated and dropping one of them would prevent multicollinearity in the model.
-    -   Box plot of different features:
-    
-    *![Book logo](/seasons.PNG)*![Book logo](/weather.PNG)
-    
-    *![Book logo](/Holiday.PNG)*![Book logo](/workingday.PNG)
-    
-    *![Book logo](/cnt.PNG)*![Book logo](/atemp.PNG)
-    
-    *![Book logo](/hum.PNG)*![Book logo](/windspeed.PNG)
-    
-    *![Book logo](/month.PNG)
-    
-        -   From the above box plots we can see that in year 2019 the shared bikes demand was comparetively higher than the year 2018 in all the trends.
-        -   But the pattersn followed by various features such as "seasons", "weathersit", "holiday", "workingday", "mnth" in affecting the "cnt" target variable seems to be similar
-        -   Also the Outliers in "cnt", "atemp", "windspeed", "hum" were identified and removed
+*![Book logo](/mssub3.PNG) 
 
 
 ## Multicolinearity
