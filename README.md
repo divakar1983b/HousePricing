@@ -111,17 +111,10 @@
         - Gambrel- "Gabrel roof"                : 0.1635
         - LotArea- "Lot size in sq.ft"          : 0.1625
         - 1.5Unf- "1.5 story Unfinished"        : -0.16238
-  -     "FV" Model top 5 predictors 
+  -    "FV" Model top 5 predictors 
         - LotArea- "Lot size in sq.ft"          : 0.48728
         - BsmtFinSF1- "Type1 Finished sq.ft"    : 0.18799
         - Rec- "Avg.Rating of Basement finish"  :-0.17729
         - 2SPUD- "2Storey PUD"                  : -.17687
         - Builtin-"Garage location"             : 0.1554
-        -   "mist" had minimal negative influence on bike demand
-        - For the year 2018 
-            -   Model prediction are better with R2 value for train and test @ 0.761 and 0.77
-        - For the year 2019
-            -   Model predictions are good with R2 value for train and test @ 0.667 and 0.55, but not as good as year 2018
-            -   Some unknown factor had an effect in increasing the demand because of which the R2 value had decreased
- 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
