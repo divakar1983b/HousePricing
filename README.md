@@ -74,8 +74,6 @@
     
 - From the heatmap we can see many highly correlating features 
 - Such Correlating Features are procedurally analysed through VIF function and dropped one by one to optimum number.
-- Similarly "hum", "fall" were also correlated with "atemp", which were confirmed by VIF function and elimiated one by one.
-    *![Book logo](/heatmap2.PNG)
 
 ## Model_Estimate
 - Once the Multicollinear features are removed to possible level using Correlation plot and vif, we move to LinearRegression model & RFE to eliminate further on the low priority features.
@@ -83,27 +81,24 @@
 - Hence we switch to Ridge regresion model or Lasso regression model to easily find the best features and coefficients for our model.
 - For building the Housing price model, the data were classfied based on Zones and each zone were modelled separetly.
     - The Models for RL, RM, RH and FV Zones were estimated separately and the outcomes are as follows
-        -   OLS models for year 2018 and year 2019 were estimated separately
-        -   To identify and remove possible multicollinearities amoung features P-factor, VIF, RFE were looked into. 
-        -   The model estimate were repeated for 4 runs and in each run a collinear feature with high P/VIF/RFE is removed to get the final model
-        -   The final model estimate is shown below
-- Ridge Train Model:
-*![Book logo](/ridgetr1.PNG)
-*![Book logo](/ridgetr2.PNG)
 
-- Lasso Train Model:
-*![Book logo](/lassotr1.PNG)
-*![Book logo](/lassotr2.PNG)
-    
-- Ridge Test Score & plot:
+- Ridge Train & Test Trends:
+*![Book logo](/ridgetr2.PNG)
+*![Book logo](/ridgetst3.PNG)
+
+- Ridge Train & Test Residuals:
+- *![Book logo](/ridgetr1.PNG)
 *![Book logo](/ridgetst1.PNG)
 *![Book logo](/ridgetst2.PNG)
-*![Book logo](/ridgetst3.PNG)
-    
-- Lasso Test Score & plot:
-*![Book logo](/lassotst1.PNG)
-*![Book logo](/lassotst2.PNG)
+
+- Lasso Train & Test Trends:
+*![Book logo](/lassotr2.PNG)
 *![Book logo](/lassotst3.PNG)
+     
+- Lasso Train & Test Residuals:
+*![Book logo](/lassotr2.PNG)
+*![Book logo](/lassotst1.PNG)
+*![Book logo](/lassotst1.PNG)
   
 ## Conclusion
    -   From the above models and prediction we can see that 
