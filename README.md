@@ -96,9 +96,9 @@
 *![Book logo](/lassotst3.PNG)
      
 - Lasso Train & Test Residuals:
-*![Book logo](/lassotr2.PNG)
+*![Book logo](/lassotr1.PNG)
 *![Book logo](/lassotst1.PNG)
-*![Book logo](/lassotst1.PNG)
+*![Book logo](/lassotst2.PNG)
   
 ## Conclusion
    -   From the above models and prediction we can see that 
