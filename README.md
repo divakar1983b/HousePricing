@@ -5,7 +5,7 @@
 > 
 >
 
-*![Book logo](/BSS.jpg)
+*![Book logo](/pricing1.jpg)
 
 ## Table of Contents
 * [Objective](#Objective)
