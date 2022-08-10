@@ -25,12 +25,16 @@
 
 ## Data_Exploration
 -  Variables
-    -   The dataset "train.csv" has 80 features with 1460 records for predicting "SalePrice" of the Australian house. 
+    -   The dataset "train.csv" has 80 features with 1460 records for predicting "SalePrice" of an Australian house. 
     -   "SalePrice" is our target variable for which the regression model needs to be built
     -   On going through the data it is found that some of the variables such as "Alley, PoolQC, Fence, MiscFeatures" are having most of the values as NAN. Hence can be dropped. 
     -   Variables such as "YearBuilt, YearRemodAdd, GarageYrBuilt" are transformed to respective ages from time of sale using formulas such as  "YrSold-YrBuilt, YrSold-YearRemodAdd, YrSold-GarageYrBuilt" resp. and the year variables are dropped. 
     -   Unimportant variables such as "ID" are also dropped
-    -   "holiday", "weekday", "workingday", "season", "weathersit", "mnth", "yr" are categorical variables
+-  Zones
+    -   On going through the data_description and data we can understand that the houses are majorly categorized according to zones. 
+    -   "MSZoning" variable contains the zones of each house as "RL, RM, RH, FV, C(all)". 
+    -   The distribution of the house sold reveals that almost "79% of house sold are from "RL" Zone, followed by "15%" in "RM" Zone and 4% in "FV"zone and minor % in RH and C(all) zones.
+-  Zones   
     -   "instant", "dteday" shall be dropped due to low relavance to the model 
     -   "casual", "registered", "weekday" shall be dropped due to presence of alternate variable "cnt", "workingday", "holiday"
     -   dummy variables for "weathersit" feature shall be created with drop first method
