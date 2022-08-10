@@ -30,10 +30,15 @@
     -   On going through the data it is found that some of the variables such as "Alley, PoolQC, Fence, MiscFeatures" are having most of the values as NAN. Hence can be dropped. 
     -   Variables such as "YearBuilt, YearRemodAdd, GarageYrBuilt" are transformed to respective ages from time of sale using formulas such as  "YrSold-YrBuilt, YrSold-YearRemodAdd, YrSold-GarageYrBuilt" resp. and the year variables are dropped. 
     -   Unimportant variables such as "ID" are also dropped
--  Zones
+-  Zones & Subclasses
     -   On going through the data_description and data we can understand that the houses are majorly categorized according to zones. 
     -   "MSZoning" variable contains the zones of each house as "RL, RM, RH, FV, C(all)". 
     -   The distribution of the house sold reveals that almost "79% of house sold are from "RL" Zone, followed by "15%" in "RM" Zone and 4% in "FV"zone and minor % in RH and C(all) zones.
+    -   The Houses sold in each zone can be further sub classified into 1-Story newer, 1-Story older, 2-Story newer, 2-Story older...etc which is captured in variable "MSSubClass" with values 20 to 190 each representing a particular class.
+    -   The distribution of House sold in each zone based on sub class reveals following: 
+    -   In RL Zone: 44% of the houses are 1-Story newer, 24% are 2-Story newer, 8% are 1.5 Story finished and minor % in other classes
+    -   In RM Zone: 23% are 1.5 Storey finished, 15% of old 1Storey and 2 Storey, 10% of Planned unit and minor % in other classes
+    -   In FV Zone: 38% are 2 Storey Newer, 34% Planned unit, 20% 1Storey newer and 8% 1Storey PUD
 
 *![Book logo](/zone1.PNG)
 *![Book logo](/zone2.PNG)
