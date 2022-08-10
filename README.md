@@ -78,11 +78,11 @@
     *![Book logo](/heatmap2.PNG)
 
 ## Model_Estimate
-- From the correlation matrix and other plots plotted above, we can clearly see that in the year 2019 the demand was comparitively higher than year 2018.
-- But the factor(feature) which caused the increase in demand in year 2019 compared to year 2018 is perhaps not captured in the available features.
-- In the correlation matrix the gains between the "cnt" and different features are not the same for year 2019 and year 2018, which confirms some unknown factor.
-- For estimating the linear regression model and to get better correlation, the data needs to be split for year 2018 and 2019 and proceed with model building.
-    - Linear regression models for year 2018 and 2019 were estimated separately as follows
+- Once the Multicollinear features are removed to possible level using Correlation plot and vif, we move to LinearRegression model & RFE to eliminate further on the low priority features.
+- Since the number of features are large we will not be able to continue with LR model & RFE techiniques to achieve the most suitable model with minimal overfitting and multicollinearity.
+- Hence we switch to Ridge regresion model or Lasso regression model to easily find the best features and coefficients for our model.
+- For building the Housing price model, the data were classfied based on Zones and each zone were modelled separetly.
+    - The Models for RL, RM, RH and FV Zones were estimated separately and the outcomes are as follows
         -   OLS models for year 2018 and year 2019 were estimated separately
         -   To identify and remove possible multicollinearities amoung features P-factor, VIF, RFE were looked into. 
         -   The model estimate were repeated for 4 runs and in each run a collinear feature with high P/VIF/RFE is removed to get the final model
