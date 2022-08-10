@@ -36,6 +36,14 @@
 *![Book logo](/cont2.PNG)
 *![Book logo](/cont3.PNG)
 -   Categorical Variables
+    -   Countplot of categorical variable gives us insight of some of the insignificant categorical variables such as "BsmtHalfBath, Utlities, Street, RoofMatl, Landslope, LandContour, Heating, GarageQual, GarageCond, Functional, Electrical, Condition2, Condition1, CentralAir, BsmtFinType2,BsmtCond,KitchenAbvGr, PavedDrive, ExternalCond" which can be dropped.
+*![Book logo](/cat1.PNG)
+*![Book logo](/cat2.PNG)
+*![Book logo](/cat3.PNG)
+*![Book logo](/cat4.PNG)
+*![Book logo](/cat5.PNG)
+*![Book logo](/cat6.PNG)
+*![Book logo](/cat7.PNG)
 -  Zones & Subclasses
     -   On going through the data_description and data we can understand that the houses are majorly categorized according to zones. 
     -   "MSZoning" variable contains the zones of each house as "RL, RM, RH, FV, C(all)". 
