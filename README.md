@@ -42,8 +42,13 @@
 
 *![Book logo](/zone1.PNG)
 *![Book logo](/zone2.PNG)
--  Zones   
-    -   "instant", "dteday" shall be dropped due to low relavance to the model 
+-  Outliers   
+    -   The Box plot distribution of "Saleprice" based on houses sold in different zones and Subclasses reveals the outliers in the data which are removed for better model prediction.
+
+*![Book logo](/mssub1.PNG)
+*![Book logo](/mssub2.PNG)
+*![Book logo](/mssub3.PNG)
+
     -   "casual", "registered", "weekday" shall be dropped due to presence of alternate variable "cnt", "workingday", "holiday"
     -   dummy variables for "weathersit" feature shall be created with drop first method
     -   dummy variables for "season" feature shall be created with drop first method
