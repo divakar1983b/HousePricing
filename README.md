@@ -102,11 +102,22 @@
   
 ## Conclusion
    -   From the above models and prediction we can see that 
-        - "cnt" target variable can be predicted with
-            -   "atemp", "summer", "winter" & "mist"
-            -   "atemp" had the maximum positive influence and correlation on the shared bike demand
-            -   "summer" & "winter" had minimal positive influence on bike demand
-            -   "mist" had minimal negative influence on bike demand
+        - The "RL" Zone model and "FV" Zone model can predict better
+        - The "RM" Zone model test score is comparatively less than train score. So predictions might be little unreliable.
+        - The "RH" Zone model is poor at the train and test.
+   -   "RL" Model top 5 predictors
+        - Stone- "Exterior Covering on house"   : 0.292
+        - NoRidge- "Northridge locality"        : 0.2236
+        - Gambrel- "Gabrel roof"                : 0.1635
+        - LotArea- "Lot size in sq.ft"          : 0.1625
+        - 1.5Unf- "1.5 story Unfinished"        : -0.16238
+  -     "FV" Model top 5 predictors 
+        - LotArea- "Lot size in sq.ft"          : 0.48728
+        - BsmtFinSF1- "Type1 Finished sq.ft"    : 0.18799
+        - Rec- "Avg.Rating of Basement finish"  :-0.17729
+        - 2SPUD- "2Storey PUD"                  : -.17687
+        - Builtin-"Garage location"             : 0.1554
+        -   "mist" had minimal negative influence on bike demand
         - For the year 2018 
             -   Model prediction are better with R2 value for train and test @ 0.761 and 0.77
         - For the year 2019
