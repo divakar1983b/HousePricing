@@ -25,9 +25,11 @@
 
 ## Data_Exploration
 -  Variables
-    -   From the dataset "day.csv", we have the datas for "instant", "dteday", "season", "yr", "mnth", "holiday", "weekday", "workingday", "weathersit", "temp",    "atemp", "hum", "windspeed", "causual", "registered", "cnt". 
-    -   "cnt" is our target variable for which the regression model needs to be built
-    -   "temp", "atemp", "hum", "windspeed" are the continuous variables
+    -   The dataset "train.csv" has 80 features with 1460 records for predicting "SalePrice" of the Australian house. 
+    -   "SalePrice" is our target variable for which the regression model needs to be built
+    -   On going through the data it is found that some of the variables such as "Alley, PoolQC, Fence, MiscFeatures" are having most of the values as NAN. Hence can be dropped. 
+    -   Variables such as "YearBuilt, YearRemodAdd, GarageYrBuilt" are transformed to respective ages from time of sale using formulas such as  "YrSold-YrBuilt, YrSold-YearRemodAdd, YrSold-GarageYrBuilt" resp. and the year variables are dropped. 
+    -   Unimportant variables such as "ID" are also dropped
     -   "holiday", "weekday", "workingday", "season", "weathersit", "mnth", "yr" are categorical variables
     -   "instant", "dteday" shall be dropped due to low relavance to the model 
     -   "casual", "registered", "weekday" shall be dropped due to presence of alternate variable "cnt", "workingday", "holiday"
