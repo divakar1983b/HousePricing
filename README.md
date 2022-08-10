@@ -30,7 +30,12 @@
     -   On going through the data it is found that some of the variables such as "Alley, PoolQC, Fence, MiscFeatures" are having most of the values as NAN. Hence can be dropped. 
     -   Variables such as "YearBuilt, YearRemodAdd, GarageYrBuilt" are transformed to respective ages from time of sale using formulas such as  "YrSold-YrBuilt, YrSold-YearRemodAdd, YrSold-GarageYrBuilt" resp. and the year variables are dropped. 
     -   Unimportant variables such as "ID" are also dropped
-    -   
+-   Continuous Variables
+    -   Histogram of continuous variable gives us insight of some of the insignificant variables such as "ScreenPorch, PoolArea, MiscVal, MasVnrArea, LowQualFinSF, EnclosedPorch, BsmtFinSF2, 3SsnPorch" which can be dropped
+*![Book logo](/cont1.PNG)
+*![Book logo](/cont2.PNG)
+*![Book logo](/cont3.PNG)
+-   Categorical Variables
 -  Zones & Subclasses
     -   On going through the data_description and data we can understand that the houses are majorly categorized according to zones. 
     -   "MSZoning" variable contains the zones of each house as "RL, RM, RH, FV, C(all)". 
